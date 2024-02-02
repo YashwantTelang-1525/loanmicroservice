@@ -10,7 +10,7 @@ public class UserController {
 
     @GetMapping("/public")
     public String publicEndpoint() {
-        return "This is a public endpoint";
+        return "This is a public endpoint!";
     }
 
     @GetMapping("/secure")
